@@ -8,9 +8,6 @@ program automatic testPr_AsyncCordic (
   localparam int N     = 99;
   localparam int N_SQR = 18;
 
-  string filename = "async_cordic_results.txt";
-  int file;
-
   initial begin
     // Reset design
     ->uin_AsyncCordic.doReset;
